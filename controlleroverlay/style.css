@@ -7,34 +7,6 @@
         margin-top: -285px;*/
 }
 
-.xbox .arrows {
-    position: absolute;
-    width: 141px;
-    height: 33px;
-    top: 264px;
-    left: 306px;
-}
-
-.xbox .back, .xbox .start {
-    background: url(start-select.png);
-    width: 33px;
-    height: 33px;
-    opacity: 0;
-}
-
-.xbox .back.pressed, .xbox .start.pressed {
-    opacity: 1;
-}
-
-.xbox .back {
-    float: left;
-}
-
-.xbox .start {
-    background-position: 33px 0px;
-    float: right;
-}
-
 .xbox .abxy {
     position: absolute;
     width: 153px;
@@ -108,53 +80,4 @@
 .xbox .stick.right {
     top: 113px;
     left: 288px;
-}
-
-.xbox .dpad {
-    position: absolute;
-    width: 110px;
-    height: 111px;
-    top: 345px;
-    left: 223px;
-}
-
-.xbox .face {
-    background: url(dpad.png);
-    position: absolute;
-    opacity: 0;
-}
-
-.xbox .face.pressed {
-    opacity: 1;
-}
-
-.xbox .face.up {
-    background-position: 34px 0;
-    left: 38px;
-    top: 0px;
-    width: 34px;
-    height: 56px;
-}
-
-.xbox .face.down {
-    left: 38px;
-    bottom: 0;
-    width: 34px;
-    height: 56px;
-}
-
-.xbox .face.left {
-    background-position: 0 -93px;
-    width: 55px;
-    height: 35px;
-    top: 38px;
-    left: 0;
-}
-
-.xbox .face.right {
-    background-position: 0 -57px;
-    width: 55px;
-    height: 35px;
-    top: 38px;
-    right: 0;
 }
